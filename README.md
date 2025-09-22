@@ -1,6 +1,6 @@
 # hpp-clean
 
-An up-to-date alternative to the deprecated `hpp` package.  
+An up-to-date alternative to the deprecated [hpp](https://www.npmjs.com/package/hpp) package.  
 Express 5+ middleware to protect against HTTP Parameter Pollution (HPP).
 
 ## Installation
