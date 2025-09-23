@@ -51,7 +51,4 @@ app.use(hpp({
 - hpp is deprecated and doesn’t work with Express 5.
 - hpp-clean is a modern drop-in replacement.
 ## License
-MIT License
-Copyright (c) 2025 Mohammad Kalhor.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
+MIT © 2025 Mohammad Kalhor
