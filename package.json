@@ -1,7 +1,7 @@
 {
   "name": "hpp-clean",
-  "version": "1.0.2",
-  "description": "An up-to-date alternative to the deprecated hpp package. Express 5+ middleware to protect against HTTP Parameter Pollution (HPP) in req.query and req.body.",
+  "version": "1.0.4",
+  "description": "An up-to-date alternative to the deprecated hpp package. Express middleware to protect against HTTP Parameter Pollution Attacks.",
   "main": "index.js",
   "types": "types/index.d.ts",
   "keywords": [

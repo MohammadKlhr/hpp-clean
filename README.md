@@ -1,7 +1,7 @@
 # hpp-clean
 
 An up-to-date alternative to the deprecated [hpp](https://www.npmjs.com/package/hpp) package.  
-Express 5+ middleware to protect against HTTP Parameter Pollution (HPP).
+Express middleware to protect against HTTP Parameter Pollution Attacks.
 
 ## Installation
 
@@ -12,13 +12,11 @@ npm install hpp-clean
 ```js
 const express = require('express');
 const hpp = require('hpp-clean');
-const qs = require('qs');
 
 const app = express();
 
 app.use(express.json());
 app.use(hpp());
-app.set('query parser', (str) => qs.parse(str));
 
 app.get('/', (req, res) => {
   res.json({
@@ -51,4 +49,5 @@ app.use(hpp({
 - hpp is deprecated and doesn’t work with Express 5.
 - hpp-clean is a modern drop-in replacement.
 ## License
+
 MIT © 2025 Mohammad Kalhor
